@@ -19,4 +19,4 @@
 |Listing Tables and Current Size|Returns a list of tables and their current sizes in descending order by size.|syscat.tables, sysibmadm.admintabinfo|
 |top 20 queries by Number of Executions|SQL for top 20 SQL by Number of Executions|SYSIBMADM.TOP_DYNAMIC_SQL|
 |top 20 SQL by Execution Time|SQL for top 20 SQL by Execution Time|SYSIBMADM.TOP_DYNAMIC_SQL|
-|Unused Indexes|Generate a list of unused or not recently used indexes.|syscat.indexes, syscat.tables, syscat.references, join syscat.keycoluse|
+|Unused Indexes|Generate a list of unused or not recently used indexes.|syscat.indexes, syscat.tables, syscat.references, syscat.keycoluse|
